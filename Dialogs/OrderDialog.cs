@@ -142,6 +142,7 @@ namespace GreatWall
             }
             else
             {
+
                 strMessage = "[Food Order Menu] Select the menu you want to order.> ";
                 await context.PostAsync(strMessage);    //return our reply to the user
 
